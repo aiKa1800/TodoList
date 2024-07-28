@@ -1,6 +1,6 @@
 import { Button, Flex, Group, Text, TextInput } from "@mantine/core";
-import { Form, useForm, yupResolver } from "@mantine/form";
-import React, { useState } from "react";
+import { useForm, yupResolver } from "@mantine/form";
+import { useState } from "react";
 import { InferType, object, string } from "yup";
 
 export default function Todo() {
